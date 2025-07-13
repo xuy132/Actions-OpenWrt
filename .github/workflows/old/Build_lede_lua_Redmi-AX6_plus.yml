@@ -292,7 +292,7 @@ jobs:
         token: ${{ secrets.RELEASES_TOKEN }}
         body: |
          #### Redmi-AX6(合并分区) lede（lua版luci） 固件配置：
-            - IP:192.168.123.1
+            - IP:10.0.0.2
             - WEB登陆账户：root
             - 密码：password
             - 固件源码：https://github.com/coolsnowwolf/lede
