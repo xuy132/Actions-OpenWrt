@@ -145,8 +145,8 @@ jobs:
           echo "云编译发布" > release_body.txt
           echo "源码：${{ env.BUILD_SRC }}" >> release_body.txt
           echo "Kernel: ${{ env.KVER }}" >> release_body.txt
-          echo "WIFI密码: 12345678" >> release_body.txt
-          echo "LAN地址: 192.168.123.1" >> release_body.txt
+          echo "WIFI密码: 1234567890" >> release_body.txt
+          echo "LAN地址: 10.0.0.2" >> release_body.txt
           echo "源码最近提交信息:" >> release_body.txt
           echo "${{ env.useVersionInfo }}" >> release_body.txt
           echo "插件：" >> release_body.txt
